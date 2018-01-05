@@ -1,3 +1,12 @@
+@font-face {
+	font-family: 'destroyregular';
+	src: url('destroy_-webfont.woff2') format('woff2'),
+	url('destroy_-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
 body {
 	margin: 0 auto;
 
@@ -6,7 +15,7 @@ body {
 h1 {
 	margin: 5vw 8vw 0 8vw;
 	padding: 2vw;
-	font-family: 'Merriweather', serif;
+	font-family: 'Special Elite', cursive;
 	font-size: 2em;
 	font-weight: 900;
 	color: white;
@@ -16,7 +25,7 @@ footer {
 	width: 100%;
 	text-align: center;
 
-	font-family: 'Merriweather', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 1em;
 	font-weight: 400;
 }
@@ -29,7 +38,7 @@ a {
 	text-decoration: none;
 	color: white;
 	padding: 2vw;
-
+	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
 	font-size: 0.8em;
 }
@@ -42,7 +51,7 @@ a {
 
 h2 {
 	color: white;
-	font-family: 'Merriweather', serif;
+	font-family: 'Special Elite', cursive;
 	font-size: 1.5em;
 	font-weight: 700;
 	padding-left: 2%;
@@ -51,7 +60,7 @@ h2 {
 p {
 	color: white;
 	padding: 0 2vw;
-	font-family: 'Merriweather', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 1em;
 	font-weight: 400;
 }
@@ -61,7 +70,7 @@ ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 2vw;
-	font-family: 'Merriweather', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 1em;
 	font-weight: 400;
 }
@@ -189,7 +198,7 @@ ul {
 	padding: 16px 32px;
 	text-align: center;
 	margin: 40% 13%;
-	font-family: 'Merriweather', serif;
+	font-family: 'Special Elite', cursive;
 
 }
 
@@ -207,7 +216,7 @@ blockquote {
 	position: relative;
 
 	/*Font*/
-	font-family: 'Merriweather', serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: 400i;
 	font-size: 1.5em;
 	line-height: 1.2;
