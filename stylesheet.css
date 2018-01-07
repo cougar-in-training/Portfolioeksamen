@@ -91,11 +91,13 @@ ul {
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 17px;
+
 }
 
 .topnav a:hover {
 	/*	background-color: red;*/
 	color: #E43E22;
+	cursor: url(myBall.cur), auto;
 }
 
 .active {
@@ -137,6 +139,20 @@ ul {
 }
 
 /*****************FORSIDE**************/
+
+a:hover {
+	/*	background-color: red;*/
+	color: #E43E22;
+
+}
+
+a {
+	cursor: url('background/32x32_white.png'), auto;
+}
+
+/*a:hover {
+	cursor: help;
+}*/
 
 #forside .sectionwrapper {
 	display: flex;
@@ -568,7 +584,14 @@ blockquote {
 	flex-basis: 400px;
 }
 
+#redesign_rust_kaffen .redesign_styletile {
+	width: 400px;
+	height: auto;
+}
 
+.redesign_styletile img {
+	width: 80%;
+}
 
 #redesign_processdokumentation .sectionwrapper {
 	margin: 5vw 8vw;
